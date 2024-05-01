@@ -1,5 +1,5 @@
 # hugoBlock
-This will be a personal project working alongside with (Hugo)[https://github.com/Hugobsb] , but feel free to contribute with the project.
+This will be a personal project working alongside with [Hugo](https://github.com/Hugobsb) , but feel free to contribute with the project.
 
 > this README will work as a to-do list inside the repository itself so you can see what we are currently working on.
 
@@ -28,5 +28,6 @@ Pretty much we were on a discord call and Hugo turned to me and asked about how 
 ### Contact the team:
 
 If you want to get in touch in a more casual manner hit us up on discord: 
+
 @liro_rod / @hugobsb
 
