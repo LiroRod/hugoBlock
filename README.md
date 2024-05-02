@@ -1,4 +1,4 @@
-# hugoBlock
+# Benechico Liroedas
 This will be a personal project working alongside with [Hugo](https://github.com/Hugobsb) , but feel free to contribute with the project.
 
 > this README will work as a to-do list inside the repository itself so you can see what we are currently working on.
