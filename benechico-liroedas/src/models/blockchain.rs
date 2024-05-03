@@ -1,5 +1,7 @@
+
 use chrono::prelude::*;
 use super::block::Block;
+
 
 type Blocks = Vec<Block>;
 
@@ -32,10 +34,14 @@ impl Blockchain {
     blockchain
   }
 
+
+
   pub fn add_block(&mut self, nonce: String) {
+
     let mut new_block = Block::new(
       self.chain.len() as u64,
       nonce,
+      self.chain[&self.chain.len() - 1].previous_hash.clone()
     );
     new_block.mine(self.clone());
     self.chain.push(new_block.clone());

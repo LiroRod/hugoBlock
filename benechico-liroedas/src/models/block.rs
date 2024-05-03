@@ -7,7 +7,6 @@ use serde::{Deserialize, Serialize};
 pub struct Block {
   pub index: u64,
   pub timestamp: u64,
-
   pub proof_of_work: u64,
   pub previous_hash: String,
   pub hash: String
@@ -25,9 +24,12 @@ impl Block {
     let result = hasher.finalize();
     format!("{:x}", result)
   }
+
+
   pub fn new (
-    index: u64,
-    previous_hash: String,
+    _index: u64,
+    _previous_hash: String,
+    _hash: String,
   ) -> Self {
     let mut block = Block {
       index: 0, 
