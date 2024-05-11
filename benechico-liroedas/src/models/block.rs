@@ -31,13 +31,14 @@ impl Block {
     _previous_hash: String,
     _hash: String,
   ) -> Self {
-    let mut block = Block {
+    let block = Block {
       index: 0, 
       timestamp: Utc::now().timestamp_millis() as u64,
       proof_of_work: u64::default(),
       previous_hash: String::default(),
       hash: String::default(),
     };
+
     block
   }
   pub fn mine (&mut self, blockchain: Blockchain) {
