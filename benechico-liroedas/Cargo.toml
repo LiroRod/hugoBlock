@@ -7,6 +7,7 @@ edition = "2021"
 
 [dependencies]
 chrono = "0.4"
+hex = "0.4.3"
 serde = { features = ["derive"]}
 serde_json = "1.0"
 sha2 = "0.10.0"
